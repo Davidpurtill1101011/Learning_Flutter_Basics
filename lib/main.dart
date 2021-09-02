@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
           title: const Text(appTitle),
           actions: <Widget>[
             IconButton(
-              icon: Icon(Icons.camera_alt),
-              onPressed: () => {},
+              icon: Icon(Icons.camera_alt, color: Colors.amber),
+              onPressed: () => {print('Button top right was clicked')},
             ),
           ],
         ),
